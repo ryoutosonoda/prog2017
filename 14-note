@@ -1,0 +1,104 @@
+import turtle
+turtle = turtle.Turtle()
+turtle.position()
+
+import turtle
+t = Turtle.turtle()
+
+t.forward(100)
+t.left(90)
+t.forward(100)
+
+def rect(x,y,a):
+  t.up()
+  t.home()
+  t.forward(x)
+  t.left(90)
+  t.forward(y)
+  t.down()
+  for i in range(4):
+    t.forward(a)
+    t.left(-90)
+
+t.clear()
+rect(10,20,100)
+   def rect(x, y, a):
+  t.up()
+  t.home()
+  t.forward(x)
+  t.left(90)
+  t.forward(y)
+  t.down()
+  for i in range(4):
+    t.forward(a)
+    t.left(-90)
+#空行
+
+t.clear()
+
+rect(10, 10, 100)
+rect(10, -110, 100)
+rect(-110, 10, 100)
+rect(-110, -110, 100)
+
+				
+class Dice:
+  face_num = 6
+  def shoot(self):
+    return random.randint(1,self.face_num)
+
+
+important random
+aDice = Dice()
+aDice.shoot()
+
+
+
+aDice = Dice() #クラスをもとにオブジェクトを作る
+aDice.shoot() #オブジェクトを使う
+
+ 
+171問　class
+172問　self
+172    __onit__
+
+179 pythonと打つ
+180　2**10
+181 CUI( キャラクターユーザーインターフェース)
+    GUI(グラフィカルユーザーインターフェイス)
+    
+import sys
+
+
+
+for line in sys.stdin:
+
+  print(line)
+読み込んだ合計値が出せる
+
+import sys
+
+
+
+sum = 0
+
+for line in sys.stdin:
+
+  sum += int(line.strip())
+
+
+
+print(sum)
+
+
+
+
+
+						
+						
+
+
+
+
+
+		
